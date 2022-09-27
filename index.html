@@ -11,9 +11,12 @@
     <script>
 
         images = new Array;
-        images = ['<img src="images/mar1.jpg">','<img src="images/mar2.jpg">','<img src="images/mar3.jpg">','<img src="images/mar4.jpg">','<img src="images/mar5.jpg">','<img src="images/mar6.jpg">','<img src="images/mar7.jpg">','<img src="images/mar8.jpg">','<img src="images/mar9.jpg">','<img src="images/mar10.jpg">','<img src="images/mar11.jpg">','<img src="images/mar12.jpg">','<img src="images/mar13.jpg">','<img src="images/mar14.jpg">','<img src="images/mar15.jpg">','<img src="images/mar16.jpg">','<img src="images/mar17.jpg">','<img src="images/mar18.jpg">','<img src="images/mar19.jpg">','<img src="images/mar20.jpg">',];
-            document.write(images + "<br>")
-    
+        images = ["mar1.jpg", "mar2.jpg", "mar3.jpg", "mar4.jpg", "mar5.jpg", "mar6.jpg", "mar7.jpg", "mar8.jpg", "mar9.jpg", "mar10.jpg", "mar11.jpg", "mar12.jpg", "mar13.jpg", "mar14.jpg", "mar15.jpg", "mar16.jpg", "mar17.jpg", "mar18.jpg", "mar19.jpg", "mar20.jpg"];
+        
+        for(posicao=0; posicao<images.length;posicao++)
+        {
+            document.write("<img src='images/" + images[posicao] + "' width='150'> <br>");
+        }
 
     </script>
 
